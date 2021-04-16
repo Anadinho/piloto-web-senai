@@ -10,10 +10,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Lista de pilotos</title>
+        <title>Lista </title>
     </head>
     <body>
-        <h1>Listar Pilotos!!</h1>
+        <h1>Listar </h1>
         
           <table border=1>
         <thead>
