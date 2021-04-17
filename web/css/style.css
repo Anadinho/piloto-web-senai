@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/04/2021, 18:39:43
+    Author     : suporte
+*/
+
+body{
+    font-family: Georgia, 'Times New Roman', Time, serif;
+}
+
+main{
+    width: 20%;
+    display: table;
+    margin: 50px auto 0 auto;
+}
+
+.table-container{
+    width: 200px;
+    display: table;
+}
+
+.card{
+    width: 100%;
+    display: table;
+    background-color: #B9B9B9;
+    border-radius: 8px;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.05);
+}
+
+.box{
+        width: 90%;
+    display: table;
+    margin-right: 5px;
+}
+
+.button{
+    width: 52.5%;
+    display: table;
+    background-color: #B9B9B9;
+    border-radius: 8px;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.05);
+}
+
+.titulo{
+    width: 20%;
+}

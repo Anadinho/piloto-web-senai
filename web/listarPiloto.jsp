@@ -10,12 +10,13 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+           <link type="text/css" href="css/style.css" rel="stylesheet" />
         <title>Lista </title>
     </head>
     <body>
-        <h1>Listar </h1>
         
-          <table border=1>
+        
+          <table border=1 class="card">
         <thead>
             <tr>
                 <th>Matricula</th>
@@ -45,6 +46,6 @@
         </tbody>
     </table>
         
-        <p><a href="PilotoController?action=cadastrarPiloto">Add User</a></p>
+        <button onclick="window.location.href='PilotoController?action=cadastrarPiloto'">Cadastrar</button>
     </body>
 </html>
