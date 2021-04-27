@@ -23,8 +23,8 @@ public class Conexao {
         {
                
                 String driver = "com.mysql.jdbc.Driver";
-                String url = "jdbc:mysql://192.168.1.12:3306/senai";
-                String user = "anadinhoo";
+                String url = "jdbc:mysql://192.168.1.11:3306/senai";
+                String user = "anadinho";
                 String password = "123";
                 
 //                String driver = "org.postgresql.Driver";
