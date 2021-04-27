@@ -19,28 +19,32 @@
           <table border=1 class="card">
         <thead>
             <tr>
-                <th>Matricula</th>
-                <th>Nome</th>
-                <th>Pais</th>
-                <th>Data de Nascimento</th>
-                <th>Equipe</th>
-                <th>Fabricante do Motor</th>
-                <th>Pontos Temporada</th>
+                <th>Renavam</th>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Data</th>
+                <th>Cor</th>
+                <th>Placa do carro</th>
+                <th>Categoria</th>
+                <th>Combustivel</th>
+                <th>Km</th>
                 <th colspan=2>Action</th>
             </tr>
         </thead>
         <tbody>
-            <c:forEach items="${pilotos}" var="user">
+            <c:forEach items="${carros}" var="user">
                 <tr>
-                    <td><c:out value="${user.matricula}" /></td>
-                    <td><c:out value="${user.nome}" /></td>
-                    <td><c:out value="${user.pais}" /></td>
-                    <td><fmt:formatDate pattern="yyyy-MMM-dd" value="${user.dataNascimento}" /></td>
-                    <td><c:out value="${user.equipe}" /></td>
-                    <td><c:out value="${user.fabricanteMotor}" /></td>
-                    <td><c:out value="${user.pontosTemporadas}" /></td>
-                    <td><a href="PilotoController?action=edit&matricula=<c:out value="${user.matricula}"/>">Update</a></td>
-                    <td><a href="PilotoController?action=delete&matricula=<c:out value="${user.matricula}"/>">Delete</a></td>
+                    <td><c:out value="${user.renavam}" /></td>
+                    <td><c:out value="${user.marca}" /></td>
+                    <td><c:out value="${user.modelo}" /></td>
+                    <td><fmt:formatDate pattern="yyyy-MMM-dd" value="${user.data}" /></td>
+                    <td><c:out value="${user.cor}" /></td>
+                    <td><c:out value="${user.placa}" /></td>
+                    <td><c:out value="${user.categoria}" /></td>
+                    <td><c:out value="${user.combustivel}" /></td>
+                     <td><c:out value="${user.km}" /></td>
+                    <td><a href="CarroController?action=edit&placa=<c:out value="${user.placa}"/>">Update</a></td>
+                    <td><a href="CarroController?action=delete&placa=<c:out value="${user.placa}"/>">Delete</a></td>
                 </tr>
             </c:forEach>
         </tbody>

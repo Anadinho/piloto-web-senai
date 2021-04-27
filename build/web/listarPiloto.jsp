@@ -46,6 +46,9 @@
         </tbody>
     </table>
         
-        <button onclick="window.location.href='PilotoController?action=cadastrarPiloto'">Cadastrar</button>
+        <button onclick="window.location.href='PilotoController?action=cadastrarPiloto'">Cadastrar Piloto</button>
+         <button onclick="window.location.href='CarroController?action=cadastrarCarro'">Cadastrar Carro</button>
+          <button onclick="window.location.href='PilotoController?action=listarPiloto'">Exibir Piloto</button>
+          <button onclick="window.location.href='CarroController?action=listarCarro'">Exibir Carro</button>
     </body>
 </html>

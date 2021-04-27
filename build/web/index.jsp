@@ -13,7 +13,8 @@
     </head>
     <body>
         <h1>Hello World!</h1>
-        <jsp:forward page="PilotoController?action=listarPiloto" />
+        <%--<jsp:forward page="PilotoController?action=listarPiloto" />--%>
+         <jsp:forward page="CarroController?action=listarCarro" />
         <%--<jsp:forward page="PilotoController" />--%>
     </body>
 </html>

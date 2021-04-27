@@ -36,7 +36,7 @@
          Fabricante do Motor : <input  type="text" name="fabricanteMotor" value="<c:out value="${piloto.fabricanteMotor}" />" class="box" /> <br /> 
          Pontos da temporada : <input  type="text" name="pontosTemporada" value="<c:out value="${piloto.pontosTemporadas}" />"  class="box"/> <br />     
 
-<button type="submit" value="Submit"> Salvar </button>
+                <button type="submit" value="Submit"> Salvar </button>
         </div>
     </div>   
     </form>
