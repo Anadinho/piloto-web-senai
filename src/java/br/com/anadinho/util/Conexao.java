@@ -23,9 +23,9 @@ public class Conexao {
         {
                
                 String driver = "com.mysql.jdbc.Driver";
-                String url = "jdbc:mysql://localhost/db_senai_cliente";
-                String user = "root";
-                String password = "root@123";
+                String url = "jdbc:mysql://192.168.1.12:3306/senai";
+                String user = "anadinhoo";
+                String password = "123";
                 
 //                String driver = "org.postgresql.Driver";
 //                String url = "jdbc:postgresql://localhost:5432/usuario";
