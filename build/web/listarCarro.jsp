@@ -14,9 +14,13 @@
         <title>Lista </title>
     </head>
     <body>
+         <div class="table-container">  
+            <div class="escudoLista">
+                <label class="txtpilotos">Carros</label>
+                <div class="tableLista">
         
         
-          <table border=1 class="card">
+          <table border=1 class="card" >
         <thead>
             <tr>
                 <th>Renavam</th>
@@ -28,12 +32,12 @@
                 <th>Categoria</th>
                 <th>Combustivel</th>
                 <th>Km</th>
-                <th colspan=2>Action</th>
+                <th colspan=2 >Action</th>
             </tr>
         </thead>
         <tbody>
             <c:forEach items="${carros}" var="user">
-                <tr>
+                <tr >
                     <td><c:out value="${user.renavam}" /></td>
                     <td><c:out value="${user.marca}" /></td>
                     <td><c:out value="${user.modelo}" /></td>
@@ -43,16 +47,18 @@
                     <td><c:out value="${user.categoria}" /></td>
                     <td><c:out value="${user.combustivel}" /></td>
                      <td><c:out value="${user.km}" /></td>
-                    <td><a href="CarroController?action=edit&placa=<c:out value="${user.placa}"/>">Update</a></td>
+                     <td ><a  href="CarroController?action=edit&placa=<c:out value="${user.placa}"/>" >Update</a></td>
                     <td><a href="CarroController?action=delete&placa=<c:out value="${user.placa}"/>">Delete</a></td>
                 </tr>
             </c:forEach>
         </tbody>
     </table>
-        
-        <button onclick="window.location.href='PilotoController?action=cadastrarPiloto'">Cadastrar Piloto</button>
-         <button onclick="window.location.href='CarroController?action=cadastrarCarro'">Cadastrar Carro</button>
-          <button onclick="window.location.href='PilotoController?action=listarPiloto'">Exibir Piloto</button>
-          <button onclick="window.location.href='CarroController?action=listarCarro'">Exibir Carro</button>
+       </div>
+         </div>
+        <button onclick="window.location.href='PilotoController?action=cadastrarPiloto'" class="novoPiloto"></button>
+         <button onclick="window.location.href='CarroController?action=cadastrarCarro'" class="novoCarro"></button>
+         <button onclick="window.location.href='PilotoController?action=listarPiloto'" class="exibirPiloto"></button>
+         <button onclick="window.location.href='CarroController?action=listarCarro'" class="exibirCarro"></button>
+           </div>
     </body>
 </html>

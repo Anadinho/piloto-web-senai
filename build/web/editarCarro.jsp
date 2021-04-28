@@ -23,28 +23,49 @@
             $('input[name=data]').datepicker();
         });
     </script>
-    <main>
+    
     <div class="table-container">  
-        <div class="card">
+            <div class="fundoEscuro">               
+            <div class="escudoCadastroCarros">
         <form method="POST" action='CarroController' name="frmAddCarro">
             
-         Renavam :  <input  type="text" name="renavam"  value="<c:out value="${carro.renavam}" />"  class="box"/> <br />
-         Marca : <input  type="text" name="marca" value="<c:out value="${carro.marca}" />" class="box" /> <br /> 
-         Modelo: <input  type="text" name="modelo" value="<c:out value="${carro.modelo}" />" class="box" /> <br /> 
-         Cor : <input  type="text" name="cor" value="<c:out value="${carro.cor}" />"  class="box" /> <br /> 
-         Placa : <input  type="text" name="placa"  readonly="readonly" value="<c:out value="${carro.placa}" />"  class="box" /> <br /> 
-         Data : <input   type="text" name="data" value="<fmt:formatDate pattern="MM/dd/yyyy" value="${carro.data}" />" class="box" /> <br /> 
-         Categoria: <input  type="text" name="categoria" value="<c:out value="${carro.categoria}" />" class="box" /> <br /> 
-         Combustivel : <input  type="text" name="combustivel" value="<c:out value="${carro.combustivel}" />"  class="box"/> <br />
-         Km : <input  type="text" name="km" value="<c:out value="${carro.km}" />"  class="box"/> <br /> 
+           <label class="textRenavam">Renavam : </label> 
+         <input  type="text" name="renavam"  value="<c:out value="${carro.renavam}" />"  class="botaoRenavam"/> <br />
+         
+         <label class="textMarca">Marca : </label>
+         <input  type="text" name="marca" value="<c:out value="${carro.marca}" />" class="botaoMarca" /> <br /> 
+         
+         <label class="textModelo">Modelo: : </label>
+         <input  type="text" name="modelo" value="<c:out value="${carro.modelo}" />" class="botaoModelo" /> <br /> 
+         
+         <label class="textCor">Cor : </label> 
+         <input  type="text" name="cor" value="<c:out value="${carro.cor}" />"  class="botaoCor" /> <br /> 
+         
+         <label class="textPlaca">Placa : </label> 
+         <input  type="text" name="placa" value="<c:out value="${carro.placa}" />"  class="botaoPlaca" /> <br /> 
+         
+         <label class="textData">Data : </label> 
+         <input   type="text" name="data" value="<fmt:formatDate pattern="MM/dd/yyyy" value="${carro.data}" />" class="botaoData" /> <br /> 
+         
+        <label class="textCategoria">Categoria: : </label>  
+         <input  type="text" name="categoria" value="<c:out value="${carro.categoria}" />" class="botaoCategoria" /> <br /> 
+         
+         <label class="textCombustivel">Combustivel : </label> 
+         <input  type="text" name="combustivel" value="<c:out value="${carro.combustivel}" />"  class="botaoCombustivel"/> <br />
+         
+         <label class="textKM">Km : </label>
+         <input  type="text" name="km" value="<c:out value="${carro.km}" />"  class="botaoKm"/> <br /> 
 
-        <button type="submit" value="Submit"> Salvar </button>
+        <button type="submit" value="Submit" class="botaoCadastrarCarros"></button>
+
+      
+           </form>
+         <button onclick="window.location.href='CarroController?action=listarCarro'" class="botaoVoltarCarros"></button>
+             </div>
+         
+         
         </div>
-        </div>   
-         </form>
-         <button onclick="window.location.href='CarroController?action=listarCarro'" class="button">Voltar para lista</button>
-           </div>
-    </div>      
-         </main>
+       
+          </div>
     </body>
 </html>

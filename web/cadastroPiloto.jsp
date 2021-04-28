@@ -23,26 +23,40 @@
             $('input[name=dataNascimento]').datepicker();
         });
     </script>
-    <main>
     <div class="table-container">  
-        <div class="card">
+          <div class="fundoEscuro">
+            <div class="escudoLogin">
         <form method="POST" action='PilotoController' name="frmAddPiloto">
             
-         Matricula :  <input  type="text" name="matricula"  readonly="readonly" value="<c:out value="${piloto.matricula}" />"  class="box"/> <br />
-         Name : <input  type="text" name="nome" value="<c:out value="${piloto.nome}" />" class="box" /> <br /> 
-         Pais : <input  type="text" name="pais" value="<c:out value="${piloto.pais}" />" class="box" /> <br /> 
-         Data Nascimento : <input   type="text" name="dataNascimento" value="<fmt:formatDate pattern="MM/dd/yyyy" value="${piloto.dataNascimento}" />" class="box" /> <br /> 
-         Equipe : <input  type="text" name="equipe" value="<c:out value="${piloto.equipe}" />"  class="box" /> <br /> 
-         Fabricante do Motor : <input  type="text" name="fabricanteMotor" value="<c:out value="${piloto.fabricanteMotor}" />" class="box" /> <br /> 
-         Pontos da temporada : <input  type="text" name="pontosTemporada" value="<c:out value="${piloto.pontosTemporadas}" />"  class="box"/> <br />     
+            <label class="matricula">Matricula :</label>
+         <input  type="text" name="matricula"  readonly="readonly" value="<c:out value="${piloto.matricula}" />"  class="botaoMatricula"/> <br />
+         
+         <label class="nome">Nome :</label>
+         <input  type="text" name="nome" value="<c:out value="${piloto.nome}" />" class="botaoNome" /> <br /> 
+         
+         <label class="pais">Pais :</label>
+         <input  type="text" name="pais" value="<c:out value="${piloto.pais}" />" class="botaoPais" /> <br /> 
+         
+        <label class="dataNascimento">Data </label>
+         <input   type="text" name="dataNascimento" value="<fmt:formatDate pattern="MM/dd/yyyy" value="${piloto.dataNascimento}" />" class="botaoDataPiloto" /> <br /> 
+         
+          <label class="equipe">Equipe :</label>
+         <input  type="text" name="equipe" value="<c:out value="${piloto.equipe}" />"  class="botaoEquipe" /> <br /> 
+         
+          <label class="fabricante">Fab. do Motor :</label>
+         <input  type="text" name="fabricanteMotor" value="<c:out value="${piloto.fabricanteMotor}" />" class="botaoFabricante" /> <br /> 
+         
+          <label class="pontos">Pontos </label>
+         <input  type="text" name="pontosTemporada" value="<c:out value="${piloto.pontosTemporadas}" />"  class="botaoPontos"/> <br />     
 
-                <button type="submit" value="Submit"> Salvar </button>
-        </div>
-    </div>   
+                <button type="submit"  class="botaoCadastrar" value="Submit"> </button>
+        
+     
     </form>
-         <button onclick="window.location.href='PilotoController?action=listarPiloto'" class="button">Voltar para lista</button>
+         <button onclick="window.location.href='PilotoController?action=listarPiloto'" class="botaoVoltar"></button>         
+  </div>
+         </div>
            </div>
-    </div>  
-         </main>
+     
     </body>
 </html>

@@ -12,38 +12,762 @@ body{
     font-family: Georgia, 'Times New Roman', Time, serif;
 }
 
-main{
-    width: 20%;
-    display: table;
-    margin: 50px auto 0 auto;
+.card {
+   position: absolute;
+width: 1294px;
+left: calc(50% - 1294px/2);
+top: calc(50% - 761px/2 - 0.5px);
+
+background: #494242;
+opacity: 0.5;
+
+font: Old Standard TT;
+font-size:20px;
+color: #FFFFFF;
+}
+
+
+.novoPiloto{
+position: absolute;
+width: 323.32px;
+height: 60.24px;
+left: 47px;
+top: 924.17px;
+background: url('imagem/NovoPiloto.png');
+}
+
+.novoCarro{
+
+
+position: absolute;
+width: 323.32px;
+height: 60.24px;
+left: 388px;
+top: 924px;
+background: url('imagem/Novo Carro.png');
+}
+
+.exibirPiloto{
+
+position: absolute;
+width: 323.32px;
+height: 60.24px;
+left: 730.01px;
+top: 924.17px;
+
+background: url('imagem/exibirPiloto.png');
+}
+
+
+
+.exibirCarro{
+
+position: absolute;
+width: 323.32px;
+height: 60.24px;
+left: 1070.03px;
+top: 924.17px;
+
+
+background: url('imagem/Exibir Carros.png');
+}
+
+.escudoLogin{
+   position: absolute;
+width: 605px;
+height: 1024px;
+right: 408px;
+top: calc(50% - 1024px/2);
+
+background: #494242;
+opacity: 0.5;
+}
+
+.escudoCadastroCarros{
+position: absolute;
+width: 738px;
+height: 1024px;
+left: calc(50% - 738px/2 + 1px);
+top: calc(50% - 1024px/2);
+
+background: #494242;
+opacity: 0.5;
+}
+
+.botaoVoltarCarros{
+position: absolute;
+width: 179px;
+height: 66px;
+left: 400px;
+top: 935px;
+ background: url('imagem/Voltar.png');
+}
+
+.botaoCadastrarCarros{
+position: absolute;
+width: 179px;
+height: 66px;
+left: 80px;
+top: 935px;
+
+
+ background: url('imagem/cadastrarCarro.png');
+}
+
+
+.escudoLista{
+position: absolute;
+width: 1374px;
+height: 967px;
+left: calc(50% - 1374px/2);
+top: calc(50% - 967px/2 + 15.5px);
+
+background: #7B7B7B;
+opacity: 0.9;
+}
+
+.tableLista{
+position: absolute;
+width: 1294px;
+height: 761px;
+left: calc(50% - 1294px/2);
+top: calc(50% - 761px/2 - 0.5px);
+
+background: #494242;
+opacity: 0.5;
+}
+
+.txtpilotos{
+position: absolute;
+width: 219px;
+height: 55px;
+left: calc(50% - 219px/2 - 17.5px);
+top: calc(50% - 55px/2 - 416.5px);
+
+font-family: Old Standard TT;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 59px;
+text-align: center;
+letter-spacing: 0.2em;
+
+color: #FFFFFF;
+    
 }
 
 .table-container{
-    width: 200px;
-    display: table;
+  position: absolute;
+width: 1438px;
+height: 1024px;
+left: 2px;
+top: 0px;
+background: url('imagem/imagem.png');
 }
 
-.card{
-    width: 100%;
-    display: table;
-    background-color: #B9B9B9;
-    border-radius: 8px;
-    box-shadow: 4px 4px 5px rgba(0,0,0,0.05);
+.fundoEscuro{
+    position: absolute;
+width: 1438px;
+height: 1024px;
+left: 2px;
+top: 0px;
+
+background: #7B7B7B;
+opacity: 0.8;
 }
 
-.box{
-        width: 90%;
-    display: table;
-    margin-right: 5px;
+.botaoMatricula{
+position: absolute;
+width: 544px;
+height: 66px;
+left: calc(50% - 544px/2 + 10px);
+top: calc(50% - 66px/2 - 317px);
+
+background: #433E3E;
+opacity: 0.9;
+
+font: Old Standard TT;
+font-size:30px;
+color: #FFFFFF;
 }
 
-.button{
-    width: 52.5%;
-    display: table;
-    background-color: #B9B9B9;
-    border-radius: 8px;
-    box-shadow: 4px 4px 5px rgba(0,0,0,0.05);
+.botaoNome{
+  position: absolute;
+width: 544px;
+height: 66px;
+left: calc(50% - 544px/2 + 10px);
+top: calc(50% - 66px/2 - 214px);
+
+background: #433E3E;
+opacity: 0.9;
+
+font: Old Standard TT;
+font-size:30px;
+color: #FFFFFF;
 }
+
+.botaoPais{
+position: absolute;
+width: 544px;
+height: 66px;
+left: calc(50% - 544px/2 + 10px);
+top: 378px;
+
+background: #433E3E;
+opacity: 0.9;
+
+font: Old Standard TT;
+font-size:30px;
+color: #FFFFFF;
+}
+
+.botaoData{
+position: absolute;
+width: 544px;
+height: 50px;
+left: calc(50% - 544px/2 + 10px);
+top: calc(50% - 50px/2 + 111px);
+
+background: #433E3E;
+opacity: 0.9;
+
+font: Old Standard TT;
+font-size:30px;
+color: #FFFFFF;
+}
+
+
+.botaoDataPiloto{
+position: absolute;
+width: 544px;
+height: 66px;
+left: calc(50% - 544px/2 + 10px);
+top: 491px;
+
+background: #433E3E;
+opacity: 0.9;
+
+font: Old Standard TT;
+font-size:30px;
+color: #FFFFFF;
+}
+
+.botaoEquipe{
+
+position: absolute;
+width: 544px;
+height: 66px;
+left: calc(50% - 544px/2 + 10px);
+top: 603px;
+
+background: #433E3E;
+opacity: 0.9;
+
+font: Old Standard TT;
+font-size:30px;
+color: #FFFFFF;
+}
+
+.botaoFabricante{
+
+position: absolute;
+width: 544px;
+height: 66px;
+left: calc(50% - 544px/2 + 10px);
+top: 715px;
+background: #433E3E;
+opacity: 0.9;
+
+font: Old Standard TT;
+font-size:30px;
+color: #FFFFFF;
+}
+
+.botaoPontos{
+
+position: absolute;
+width: 544px;
+height: 66px;
+left: calc(50% - 544px/2 + 10px);
+top: 828px;
+
+background: #433E3E;
+opacity: 0.9;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+font: Old Standard TT;
+font-size:30px;
+color: #FFFFFF;
+    
+/*    font-family: Old Standard TT;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;*/
+}
+
+
+
+
+.botaoCadastrar{
+position: absolute;
+width: 179px;
+height: 66px;
+left: calc(50% - 179px/2 - 162.5px);
+top: calc(50% - 66px/2 + 434px);
+background: url('imagem/botaoCadastrar1.png');
+
+}
+
+.botaoVoltar{
+position: absolute;
+width: 179px;
+height: 66px;
+left: calc(50% - 179px/2 + 182.5px);
+top: calc(50% - 66px/2 + 434px);
+background: url('imagem/Voltar.png');
+
+}
+
+.matricula{
+position: absolute;
+width: 148px;
+height: 44px;
+left: calc(50% - 148px/2 - 188px);
+top: calc(50% - 44px/2 - 369px);
+
+font-family: Old Standard TT;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+
+}
+
+.nome{
+position: absolute;
+width: 91px;
+height: 44px;
+left: calc(50% - 91px/2 - 216.5px);
+top: calc(50% - 44px/2 - 262px);
+
+font-family: Old Standard TT;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+
+}
+
+.pais{
+position: absolute;
+width: 66px;
+height: 44px;
+left: calc(50% - 66px/2 - 229px);
+top: calc(50% - 44px/2 - 155px);
+
+font-family: Old Standard TT;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+
+}
+
+.dataNascimento{
+
+position: absolute;
+width: 306px;
+height: 44px;
+left: calc(50% - 306px/2 - 109px);
+top: calc(50% - 44px/2 - 42px);
+
+font-family: Old Standard TT;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+
+}
+
+.equipe{
+
+
+position: absolute;
+width: 108px;
+height: 44px;
+left: calc(50% - 108px/2 - 208px);
+top: calc(50% - 44px/2 + 69px);
+
+font-family: Old Standard TT;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+
+
+}
+
+.fabricante{
+position: absolute;
+width: 314px;
+height: 44px;
+left: calc(50% - 314px/2 - 105px);
+top: calc(50% - 44px/2 + 182px);
+
+font-family: Old Standard TT;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+
+
+
+
+}
+
+.pontos{
+
+position: absolute;
+width: 327px;
+height: 44px;
+left: calc(50% - 327px/2 - 98.5px);
+top: calc(50% - 44px/2 + 294px);
+
+font-family: Old Standard TT;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+
+}
+
+
+
+
+.botaoRenavam{
+position: absolute;
+width: 544px;
+height: 50px;
+left: calc(50% - 544px/2 + 10px);
+top: calc(50% - 50px/2 - 338px);
+
+background: #433E3E;
+opacity: 0.9;
+
+font: Old Standard TT;
+font-size:30px;
+color: #FFFFFF;
+
+}
+
+
+.botaoMarca{
+position: absolute;
+width: 544px;
+height: 50px;
+left: calc(50% - 544px/2 + 13px);
+top: calc(50% - 50px/2 - 243px);
+
+background: #433E3E;
+opacity: 0.9;
+
+font: Old Standard TT;
+font-size:30px;
+color: #FFFFFF;
+
+}
+
+
+.botaoModelo{
+position: absolute;
+width: 544px;
+height: 50px;
+left: calc(50% - 544px/2 + 10px);
+top: calc(50% - 50px/2 - 158px);
+
+background: #433E3E;
+opacity: 0.9;
+
+font: Old Standard TT;
+font-size:30px;
+color: #FFFFFF;
+}
+
+
+.botaoCor{
+position: absolute;
+width: 544px;
+height: 50px;
+left: calc(50% - 544px/2 + 10px);
+top: calc(50% - 50px/2 - 60px);
+
+background: #433E3E;
+opacity: 0.9;
+
+font: Old Standard TT;
+font-size:30px;
+color: #FFFFFF;
+}
+
+
+.botaoPlaca{
+position: absolute;
+width: 544px;
+height: 50px;
+left: calc(50% - 544px/2 + 10px);
+top: calc(50% - 50px/2 + 28px);
+
+background: #433E3E;
+opacity: 0.9;
+
+font: Old Standard TT;
+font-size:30px;
+color: #FFFFFF;
+}
+
+
+.dataCarros{
+position: absolute;
+width: 544px;
+height: 50px;
+left: calc(50% - 544px/2 + 10px);
+top: calc(50% - 50px/2 + 111px);
+
+background: #433E3E;
+opacity: 0.9;
+
+font: Old Standard TT;
+font-size:30px;
+color: #FFFFFF;
+}
+
+
+.botaoCategoria{
+position: absolute;
+width: 544px;
+height: 50px;
+left: calc(50% - 544px/2 + 10px);
+top: calc(50% - 50px/2 + 199px);
+
+background: #433E3E;
+opacity: 0.9;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+font: Old Standard TT;
+font-size:30px;
+color: #FFFFFF;
+}
+
+
+.botaoCombustivel{
+position: absolute;
+width: 544px;
+height: 50px;
+left: calc(50% - 544px/2 + 10px);
+top: calc(50% - 50px/2 + 282px);
+
+background: #433E3E;
+opacity: 0.9;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+font: Old Standard TT;
+font-size:30px;
+color: #FFFFFF;
+}
+
+
+.botaoKm{
+position: absolute;
+width: 544px;
+height: 50px;
+left: calc(50% - 544px/2 + 10px);
+top: calc(50% - 50px/2 + 365px);
+
+background: #433E3E;
+opacity: 0.9;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);;
+
+font: Old Standard TT;
+font-size:30px;
+color: #FFFFFF;
+}
+
+
+.textRenavam{
+position: absolute;
+width: 151px;
+height: 39px;
+left: calc(50% - 151px/2 - 186.5px);
+top: calc(50% - 39px/2 - 382.5px);
+
+font-family: Old Standard TT;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+}
+
+.textMarca{
+position: absolute;
+width: 97px;
+height: 38px;
+left: calc(50% - 97px/2 - 213.5px);
+top: calc(50% - 38px/2 - 300px);
+
+font-family: Old Standard TT;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+}
+
+
+
+.textModelo{
+position: absolute;
+width: 111px;
+height: 37px;
+left: calc(50% - 111px/2 - 206.5px);
+top: calc(50% - 37px/2 - 205.5px);
+
+font-family: Old Standard TT;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+}
+
+
+.textCor{
+position: absolute;
+width: 57px;
+height: 34px;
+left: calc(50% - 57px/2 - 230.5px);
+top: calc(50% - 34px/2 - 115px);
+
+font-family: Old Standard TT;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+}
+
+
+
+.textPlaca{
+position: absolute;
+width: 86px;
+height: 32px;
+left: calc(50% - 86px/2 - 219px);
+top: calc(50% - 32px/2 - 20px);
+
+font-family: Old Standard TT;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+
+}
+
+.textData{
+position: absolute;
+width: 77px;
+height: 30px;
+left: calc(50% - 77px/2 - 223.5px);
+top: calc(50% - 30px/2 + 65px);
+
+font-family: Old Standard TT;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+
+}
+
+.textCategoria{
+position: absolute;
+width: 151px;
+height: 33px;
+left: calc(50% - 151px/2 - 186.5px);
+top: calc(50% - 33px/2 + 157.5px);
+
+font-family: Old Standard TT;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+}
+
+.textCombustivel{
+
+position: absolute;
+width: 200px;
+height: 33px;
+left: calc(50% - 200px/2 - 162px);
+top: calc(50% - 33px/2 + 240.5px);
+
+font-family: Old Standard TT;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+}
+
+.textKM{
+position: absolute;
+width: 120px;
+height: 33px;
+left: calc(50% - 120px/2 - 202px);
+top: calc(50% - 33px/2 + 323.5px);
+
+font-family: Old Standard TT;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+
+}
+
+
+
+
+
+
+
+
 
 .titulo{
     width: 20%;

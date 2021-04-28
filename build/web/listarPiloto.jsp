@@ -14,8 +14,10 @@
         <title>Lista </title>
     </head>
     <body>
-        
-        
+        <div class="table-container">  
+            <div class="escudoLista">
+                <label class="txtpilotos">Pilotos</label>
+                <div class="tableLista">
           <table border=1 class="card">
         <thead>
             <tr>
@@ -39,16 +41,23 @@
                     <td><c:out value="${user.equipe}" /></td>
                     <td><c:out value="${user.fabricanteMotor}" /></td>
                     <td><c:out value="${user.pontosTemporadas}" /></td>
-                    <td><a href="PilotoController?action=edit&matricula=<c:out value="${user.matricula}"/>">Update</a></td>
+                    <td ><a href="PilotoController?action=edit&matricula=<c:out value="${user.matricula}"/>" >Update</a></td>
                     <td><a href="PilotoController?action=delete&matricula=<c:out value="${user.matricula}"/>">Delete</a></td>
                 </tr>
             </c:forEach>
         </tbody>
     </table>
         
-        <button onclick="window.location.href='PilotoController?action=cadastrarPiloto'">Cadastrar Piloto</button>
-         <button onclick="window.location.href='CarroController?action=cadastrarCarro'">Cadastrar Carro</button>
-          <button onclick="window.location.href='PilotoController?action=listarPiloto'">Exibir Piloto</button>
-          <button onclick="window.location.href='CarroController?action=listarCarro'">Exibir Carro</button>
+       
+       
+          
+          </div>
+                
+          </div>
+                <button onclick="window.location.href='PilotoController?action=cadastrarPiloto'" class="novoPiloto"></button>
+               <button onclick="window.location.href='CarroController?action=cadastrarCarro'" class="novoCarro"></button>
+                 <button onclick="window.location.href='PilotoController?action=listarPiloto'" class="exibirPiloto"></button>
+                 <button onclick="window.location.href='CarroController?action=listarCarro'" class="exibirCarro"></button>
+          </div>
     </body>
 </html>
