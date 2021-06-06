@@ -1,6 +1,6 @@
 <%-- 
-    Document   : listarPiloto
-    Created on : 16/04/2021, 09:41:56
+
+    Created on : 10/05/2021, 18:41:56
     Author     : suporte
 --%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
@@ -57,8 +57,10 @@
          </div>
         <button onclick="window.location.href='PilotoController?action=cadastrarPiloto'" class="novoPiloto"></button>
          <button onclick="window.location.href='CarroController?action=cadastrarCarro'" class="novoCarro"></button>
+         <button onclick="window.location.href='CorridaController?action=cadastrarCorrida'" class="novaCorrida"></button>
          <button onclick="window.location.href='PilotoController?action=listarPiloto'" class="exibirPiloto"></button>
          <button onclick="window.location.href='CarroController?action=listarCarro'" class="exibirCarro"></button>
+          <button onclick="window.location.href='CorridaController?action=listarCorrida'" class="exibirCorrida"></button>
            </div>
     </body>
 </html>

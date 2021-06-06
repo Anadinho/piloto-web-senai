@@ -54,10 +54,12 @@
           </div>
                 
           </div>
-                <button onclick="window.location.href='PilotoController?action=cadastrarPiloto'" class="novoPiloto"></button>
-               <button onclick="window.location.href='CarroController?action=cadastrarCarro'" class="novoCarro"></button>
-                 <button onclick="window.location.href='PilotoController?action=listarPiloto'" class="exibirPiloto"></button>
-                 <button onclick="window.location.href='CarroController?action=listarCarro'" class="exibirCarro"></button>
+         <button onclick="window.location.href='PilotoController?action=cadastrarPiloto'" class="novoPiloto"></button>
+         <button onclick="window.location.href='CarroController?action=cadastrarCarro'" class="novoCarro"></button>
+         <button onclick="window.location.href='CarroController?action=cadastrarCorrida'" class="novaCorrida"></button>
+         <button onclick="window.location.href='PilotoController?action=listarPiloto'" class="exibirPiloto"></button>
+         <button onclick="window.location.href='CarroController?action=listarCarro'" class="exibirCarro"></button>
+          <button onclick="window.location.href='CorridaController?action=listarCorrida'" class="exibirCorrida"></button>
           </div>
     </body>
 </html>

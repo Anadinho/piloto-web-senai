@@ -3,11 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/suporte/NetBeansProjects/PilotoWeb1/web/cadastroPiloto.jsp</file>
-            <file>file:/home/suporte/NetBeansProjects/PilotoWeb1/src/java/br/com/anadinho/bll/PilotoController.java</file>
-            <file>file:/home/suporte/NetBeansProjects/PilotoWeb1/web/listarPiloto.jsp</file>
-            <file>file:/home/suporte/NetBeansProjects/PilotoWeb1/web/css/style.css</file>
-            <file>file:/home/suporte/NetBeansProjects/PilotoWeb1/web/index.jsp</file>
+            <file>file:/home/suporte/Downloads/PilotoWeb1/src/java/br/com/anadinho/model/Corrida.java</file>
+            <file>file:/home/suporte/Downloads/PilotoWeb1/src/java/br/com/anadinho/dal/PilotoDal.java</file>
+            <file>file:/home/suporte/Downloads/PilotoWeb1/web/cadastroCorrida.jsp</file>
+            <file>file:/home/suporte/Downloads/PilotoWeb1/src/java/br/com/anadinho/dal/CorridaDal.java</file>
+            <file>file:/home/suporte/Downloads/PilotoWeb1/src/java/br/com/anadinho/bll/CorridaController.java</file>
+            <file>file:/home/suporte/Downloads/PilotoWeb1/src/java/br/com/anadinho/dal/CarroDal.java</file>
+            <file>file:/home/suporte/Downloads/PilotoWeb1/web/listarCorrida.jsp</file>
         </group>
     </open-files>
 </project-private>

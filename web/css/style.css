@@ -12,6 +12,27 @@ body{
     font-family: Georgia, 'Times New Roman', Time, serif;
 }
 
+
+.novaCorrida{
+ position: absolute;
+width: 221px;
+height: 62px;
+left: 953px;
+top: 924px;
+background: url('imagem/botaoNovaCorrida.png');
+}
+
+.exibirCorrida{
+    position: absolute;
+width: 214px;
+height: 60px;
+left: 1180px;
+top: 924px;
+background: url('imagem/exibirCorrida.png');
+}
+
+
+
 .card {
    position: absolute;
 width: 1294px;
@@ -29,30 +50,29 @@ color: #FFFFFF;
 
 .novoPiloto{
 position: absolute;
-width: 323.32px;
-height: 60.24px;
+width: 214.36px;
+height: 60.41px;
 left: 47px;
-top: 924.17px;
+top: 924px;
 background: url('imagem/NovoPiloto.png');
 }
 
 .novoCarro{
-
-
 position: absolute;
-width: 323.32px;
+width: 214.36px;
 height: 60.24px;
-left: 388px;
+left: 273.08px;
 top: 924px;
+
 background: url('imagem/Novo Carro.png');
 }
 
 .exibirPiloto{
 
 position: absolute;
-width: 323.32px;
+width: 214.36px;
 height: 60.24px;
-left: 730.01px;
+left: 499.83px;
 top: 924.17px;
 
 background: url('imagem/exibirPiloto.png');
@@ -63,10 +83,10 @@ background: url('imagem/exibirPiloto.png');
 .exibirCarro{
 
 position: absolute;
-width: 323.32px;
-height: 60.24px;
-left: 1070.03px;
-top: 924.17px;
+width: 214px;
+height: 60px;
+left: 726px;
+top: 924px;
 
 
 background: url('imagem/Exibir Carros.png');
@@ -174,6 +194,83 @@ top: 0px;
 
 background: #7B7B7B;
 opacity: 0.8;
+}
+
+
+
+.botaoCorrida{
+position: absolute;
+width: 544px;
+height: 66px;
+left: calc(50% - 544px/2 + 10px);
+top: calc(50% - 66px/2 - 317px);
+
+background: #433E3E;
+opacity: 0.9;
+
+font: Old Standard TT;
+font-size:30px;
+color: #FFFFFF;
+}
+
+.botaoDataCorrida{
+     position: absolute;
+width: 544px;
+height: 66px;
+left: calc(50% - 544px/2 + 10px);
+top: calc(50% - 66px/2 - 214px);
+
+background: #433E3E;
+opacity: 0.9;
+
+font: Old Standard TT;
+font-size:30px;
+color: #FFFFFF; 
+}
+
+.botaoCircuito{
+   position: absolute;
+width: 544px;
+height: 66px;
+left: calc(50% - 544px/2 + 10px);
+top: 378px;
+
+background: #433E3E;
+opacity: 0.9;
+
+font: Old Standard TT;
+font-size:30px;
+color: #FFFFFF; 
+}
+
+.botaoPiloto{
+position: absolute;
+width: 544px;
+height: 66px;
+left: calc(50% - 544px/2 + 10px);
+top: 491px;
+
+background: #433E3E;
+opacity: 0.9;
+
+font: Old Standard TT;
+font-size:30px;
+color: #FFFFFF;
+}
+
+.botaoCarro{
+  position: absolute;
+width: 544px;
+height: 66px;
+left: calc(50% - 544px/2 + 10px);
+top: 603px;
+
+background: #433E3E;
+opacity: 0.9;
+
+font: Old Standard TT;
+font-size:30px;
+color: #FFFFFF;  
 }
 
 .botaoMatricula{
@@ -458,7 +555,6 @@ color: #FFFFFF;
 
 
 
-
 .botaoRenavam{
 position: absolute;
 width: 544px;
@@ -607,6 +703,85 @@ font-size:30px;
 color: #FFFFFF;
 }
 
+.textNomeCorrida{
+    position: absolute;
+width: 148px;
+height: 44px;
+left: calc(50% - 148px/2 - 188px);
+top: calc(50% - 44px/2 - 369px);
+
+font-family: Old Standard TT;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+}
+
+.textDataCorrida{
+    position: absolute;
+width: 91px;
+height: 44px;
+left: calc(50% - 91px/2 - 216.5px);
+top: calc(50% - 44px/2 - 262px);
+
+font-family: Old Standard TT;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+}
+
+.textCircuito{
+   position: absolute;
+width: 66px;
+height: 44px;
+left: calc(50% - 66px/2 - 229px);
+top: calc(50% - 44px/2 - 155px);
+
+font-family: Old Standard TT;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF; 
+}
+
+.textPiloto{
+    position: absolute;
+width: 306px;
+height: 44px;
+left: calc(50% - 306px/2 - 109px);
+top: calc(50% - 44px/2 - 42px);
+
+font-family: Old Standard TT;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+}
+
+.textCarro{
+ position: absolute;
+width: 108px;
+height: 44px;
+left: calc(50% - 108px/2 - 208px);
+top: calc(50% - 44px/2 + 69px);
+
+font-family: Old Standard TT;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;  
+}
 
 .textRenavam{
 position: absolute;
